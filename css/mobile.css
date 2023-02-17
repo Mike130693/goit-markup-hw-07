@@ -1,0 +1,11 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+  /*---------HERO--------*/
+
+  /*---------FEATURES--------*/
+  .features {
+    padding: 96px 0 96px 0;
+  }
+}

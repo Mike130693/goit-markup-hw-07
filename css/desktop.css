@@ -1,0 +1,84 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  /*---------HERO--------*/
+  .hero {
+    padding: 188px 472px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-desc.jpg);
+  }
+  .main-title {
+    width: 496px;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    margin-bottom: 48px;
+  }
+  /*---------FEATURES--------*/
+  .features {
+    padding: 120px 0;
+  }
+  .features-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .features-icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: var(--features-icon-bckgrnd-color);
+  }
+  .features-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    letter-spacing: 0.02em;
+  }
+  .features-txt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+  } /*---------PROJECTS--------*/
+  .projects {
+    display: flex;
+    padding-bottom: 120px;
+  }
+  .projects-list {
+    display: flex;
+    gap: 24px;
+  }
+  .project-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  /*---------TEAM--------*/
+  .team {
+    padding: 120px 0 120px 0;
+  }
+  .team-list {
+    flex-wrap: nowrap;
+  }
+  /*---------CUSTOMERS--------*/
+  .customers {
+    padding: 120px 0 120px 0;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}

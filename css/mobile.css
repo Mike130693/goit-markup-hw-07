@@ -1,11 +1,38 @@
 @media screen and (min-width: 480px) {
-  .container, .mob-menu-container {
+  .contaiiner {
+    max-width: 428px;
+  }
+  .mob-menu-container {
     max-width: 428px;
   }
   /*---------HERO--------*/
-
+   .hero {
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 108px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tab/people-office-tab.jpg);
+  }
+   @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .box {
+    background-image: url(../images/tab/Dark-bg-tab-x2.jpg);
+  }
+}
+  .main-title {
+    background-size: contain;
+  }
+ 
   /*---------FEATURES--------*/
-  .features {
-    padding: 96px 0 96px 0;
+
+  /*---------FOOTER--------*/
+  .footer-input {
+    width: 398px;
   }
 }

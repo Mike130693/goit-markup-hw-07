@@ -22,7 +22,11 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .box {
-    background-image: url(../images/tab/Dark-bg-tab-x2.jpg);
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ), url(../images/tab/Dark-bg-tab-x2.jpg);
   }
 }
   .main-title {

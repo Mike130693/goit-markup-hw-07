@@ -3,26 +3,23 @@
     max-width: 1158px;
   }
   /*---------HEADER--------*/
-   .container > .header-container {
+  .container > .header-container {
     max-width: 1158px;
   }
   .navigation {
     margin-left: 0;
     margin-right: 332px;
-
   }
   .mail-tel {
     display: flex;
     gap: 40px;
-   
-
   }
   .address {
     padding-bottom: 0;
     margin-left: auto;
   }
   /*---------HERO--------*/
-   .hero {
+  .hero {
     max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
@@ -34,14 +31,19 @@
     justify-content: center;
     background-size: cover;
   }
-   @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .box {
-    background-image: url(../images/people-office-desc-2x.jpg);
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-desc-2x.jpg);
+    }
   }
-}
   .main-title {
     font-size: 56px;
     line-height: calc(60 / 56);
